@@ -1,0 +1,9 @@
+.titles{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titles > h3{
+    align-self: flex-end;
+    justify-self: flex-end;
+}

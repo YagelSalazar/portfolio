@@ -1,0 +1,21 @@
+.links{
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+}
+
+.porfilePhoto{
+    height: 20vh;
+}
+
+.skillsData{
+    display: flex;
+    justify-content: space-around;
+}
+
+.technology > h3{
+    margin: 0;
+}
+
+.achievements > h2{
+    border-bottom: solid 2px #000;
+}
