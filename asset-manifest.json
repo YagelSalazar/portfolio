@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4781c77a.chunk.css",
+    "main.js": "/static/js/main.e02fa88f.chunk.js",
+    "main.js.map": "/static/js/main.e02fa88f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.98102d87.js",
+    "runtime-main.js.map": "/static/js/runtime-main.98102d87.js.map",
+    "static/js/2.878d764c.chunk.js": "/static/js/2.878d764c.chunk.js",
+    "static/js/2.878d764c.chunk.js.map": "/static/js/2.878d764c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.79b2107e7e4a95fa87603565877ae167.js": "/precache-manifest.79b2107e7e4a95fa87603565877ae167.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4781c77a.chunk.css.map": "/static/css/main.4781c77a.chunk.css.map",
+    "static/js/2.878d764c.chunk.js.LICENSE.txt": "/static/js/2.878d764c.chunk.js.LICENSE.txt",
+    "static/media/acc-screens.png": "/static/media/acc-screens.caa51169.png",
+    "static/media/buntiapp.png": "/static/media/buntiapp.36ff8d7a.png",
+    "static/media/ddManufacture.png": "/static/media/ddManufacture.fd75cadf.png",
+    "static/media/lolKioru.png": "/static/media/lolKioru.d9e8d42f.png",
+    "static/media/mernTasks.png": "/static/media/mernTasks.a99a0971.png",
+    "static/media/piedra-papel-tijera.png": "/static/media/piedra-papel-tijera.9ed3646a.png",
+    "static/media/porfile.jpg": "/static/media/porfile.5bcc8a86.jpg",
+    "static/media/pruebaBrounieAndroid.png": "/static/media/pruebaBrounieAndroid.9eb52e56.png",
+    "static/media/resume.png": "/static/media/resume.777b4ffa.png",
+    "static/media/task-manager.png": "/static/media/task-manager.bc0dbead.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98102d87.js",
+    "static/js/2.878d764c.chunk.js",
+    "static/css/main.4781c77a.chunk.css",
+    "static/js/main.e02fa88f.chunk.js"
+  ]
+}
