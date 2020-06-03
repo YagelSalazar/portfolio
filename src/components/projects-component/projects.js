@@ -16,6 +16,7 @@ import MERN from '../../res/mernTasks.png'
 import DD from '../../res/ddManufacture.png'
 import BrounieAndroid from '../../res/pruebaBrounieAndroid.png'
 import AccScreens from '../../res/acc-screens.png'
+import Resume from '../../res/resume.png'
 
 export default function Projects() {
     return (
@@ -35,6 +36,13 @@ export default function Projects() {
             </div>
 
             <div className='projects-content'>
+                <a href='https://github.com/YagelSalazar/portfolio' target="_blank" rel="noopener noreferrer">
+                    <div className='card'>
+                        <h3>Web Resume (Portfolio)</h3>
+                        <img src={Resume} alt='GitHub tasks project' />
+                        <p>A ReactJS presentation made to share with everyone.</p>
+                    </div>
+                </a>
                 <a href='https://github.com/YagelSalazar/tasks-manager/tree/master/tasks-manager' target="_blank" rel="noopener noreferrer">
                     <div className='card'>
                         <h3>Task Manager</h3>

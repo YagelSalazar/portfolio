@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import './contact-styles.css'
 //--------------------------------- Material UI
 import { makeStyles } from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField';
+import Input from '@material-ui/core/Input';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import SendIcon from '@material-ui/icons/Send';
@@ -30,6 +30,7 @@ export default function Contact() {
 
     function sendEmail(e) {
         e.preventDefault();
+        console.log(e.target)
 
         // --------------------------------------------- Form fields validation
 
@@ -73,13 +74,13 @@ export default function Contact() {
             <h1>Send me an Email</h1>
 
             <div>
-                <form name='messageForm' className={classes.root} noValidate autoComplete="off" onSubmit={e => sendEmail(e)}>
-                    <TextField required id="standard-required" label="Name" className={classes.fields} name="user_name" />
-                    <TextField required id="standard-required" label="Email" className={classes.fields} name="user_email" />
-                    <TextField id="standard-required" label="Phone Number" className={classes.fields} name="contact_number" />
-                    <TextField
+                <form className={classes.root} noValidate autoComplete="off" onSubmit={e => sendEmail(e)}>
+                    <Input required type='text' id="standard-required" placeholder='Your Name' className={classes.fields} name="user_name" />
+                    <Input required type='email' id="standard-required" placeholder='your Email' className={classes.fields} name="user_email" />
+                    <Input type='text' id="standard-required" placeholder="Phone Number" className={classes.fields} name="contact_number" />
+                    <Input
+                        type='text'
                         id="outlined-multiline-static"
-                        label="Message"
                         multiline
                         rows={6}
                         defaultValue=""
