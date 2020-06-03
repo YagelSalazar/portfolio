@@ -106,9 +106,6 @@ export default function App() {
     setOpen(false);
   };
 
-  // --------------------------------------------------- Contact form validation and messages
-  
-  // ---------------------------------------------------
 
   return (
     <Router>
