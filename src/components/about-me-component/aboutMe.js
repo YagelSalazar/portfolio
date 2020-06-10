@@ -69,7 +69,7 @@ export default function AboutMe() {
             <Typography paragraph>
                 I have experience working within the programming world participating in
                 projects related to mobile apps, augmented reality with unity 3d, and web
-                apps. Currently I specialize in web development as a full stack web developer.
+                apps. Currently I specialize in web development as a web developer.
             </Typography>
 
             <Typography paragraph>
